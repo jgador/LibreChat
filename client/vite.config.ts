@@ -52,8 +52,8 @@ export default defineConfig(({ command }) => ({
       },
       includeAssets: [],
       manifest: {
-        name: 'LibreChat',
-        short_name: 'LibreChat',
+        name: 'PisoChatGPT',
+        short_name: 'PisoChatGPT',
         start_url: '/',
         display: 'standalone',
         background_color: '#000000',
