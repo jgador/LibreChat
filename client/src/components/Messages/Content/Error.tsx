@@ -87,6 +87,10 @@ const errorMessages = {
     return (
       <>
         {message}
+        <br />
+        <br />
+        To continue, send us a message at <a href="https://m.me/pisochatgpt" target="_blank" rel="noopener noreferrer">https://m.me/pisochatgpt</a>.<br />
+        We'll send you a QR code for payment — only ₱99/month.
         {generations && (
           <>
             <br />
