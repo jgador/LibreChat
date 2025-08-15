@@ -89,8 +89,9 @@ const errorMessages = {
         {message}
         <br />
         <br />
-        To continue, send us a message at <a href="https://m.me/pisochatgpt" target="_blank" rel="noopener noreferrer">https://m.me/pisochatgpt</a>.<br />
-        We'll send you a QR code for payment — only ₱99/month.
+        You're on the Free tier—great for quick tries; it refills daily but is limited.<br />
+        Upgrade to Sulit tier for 2 million tokens per day at ₱99/month—see pricing:<br />
+        <a href="https://pisochatgpt.com/pricing.html" target="_blank" rel="noopener noreferrer">https://pisochatgpt.com/pricing.html</a>.<br />
         {generations && (
           <>
             <br />
