@@ -89,8 +89,8 @@ const errorMessages = {
         {message}
         <br />
         <br />
-        You're on the Free tier—great for quick tries; it refills daily but is limited.<br />
-        Upgrade to Sulit tier for 2 million tokens per day at ₱99/month—see pricing:<br />
+        You’ve used up today’s tokens.<br />
+        Tokens reset daily for everyone. See limits or upgrade here:<br />
         <a href="https://pisochatgpt.com/pricing.html" target="_blank" rel="noopener noreferrer">https://pisochatgpt.com/pricing.html</a>.<br />
         {generations && (
           <>
