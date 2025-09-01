@@ -177,6 +177,16 @@ const LoginForm: React.FC<TLoginFormProps> = ({ onSubmit, startupConfig, error, 
             {isSubmitting ? <Spinner /> : localize('com_auth_continue')}
           </Button>
         </div>
+        <div className="mt-4 text-center">
+          <a
+            href="https://pisochatgpt.com/pricing.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex p-1 text-sm font-medium text-green-600 transition-colors hover:text-green-700 dark:text-green-400 dark:hover:text-green-300"
+          >
+            See plans and pricing
+          </a>
+        </div>
       </form>
     </>
   );

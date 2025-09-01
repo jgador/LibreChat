@@ -1,7 +1,7 @@
 import { useState, memo } from 'react';
 import { useRecoilState } from 'recoil';
 import * as Select from '@ariakit/react/select';
-import { FileText, LogOut } from 'lucide-react';
+import { FileText, LogOut, ArrowUpCircle } from 'lucide-react';
 import { LinkIcon, GearIcon, DropdownMenuSeparator, UserIcon } from '@librechat/client';
 import { useGetStartupConfig, useGetUserBalance } from '~/data-provider';
 import FilesView from '~/components/Chat/Input/Files/FilesView';
@@ -83,6 +83,14 @@ function AccountSettings() {
             <DropdownMenuSeparator />
           </>
         )}
+        <Select.SelectItem
+          value=""
+          onClick={() => window.open('https://pisochatgpt.com/pricing.html', '_blank')}
+          className="select-item text-sm"
+        >
+          <ArrowUpCircle className="icon-md" aria-hidden="true" />
+          Upgrade plan
+        </Select.SelectItem>
         <Select.SelectItem
           value=""
           onClick={() => setShowFiles(true)}
