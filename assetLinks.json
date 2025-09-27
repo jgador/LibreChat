@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.pisochatgpt.twa",
+        "sha256_cert_fingerprints": ["88:B7:EC:1E:6D:4D:28:6F:55:AC:D1:4B:46:6A:89:84:3C:18:56:FE:14:F8:50:25:01:63:B0:47:30:77:3E:9B"]
+      }
+    }]

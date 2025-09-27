@@ -14,11 +14,11 @@ export default defineConfig(({ command }) => ({
     strictPort: false,
     proxy: {
       '/api': {
-        target: 'http://localhost:3080',
+        target: 'https://pisochatgpt.com',
         changeOrigin: true,
       },
       '/oauth': {
-        target: 'http://localhost:3080',
+        target: 'https://pisochatgpt.com',
         changeOrigin: true,
       },
     },
@@ -52,8 +52,8 @@ export default defineConfig(({ command }) => ({
       },
       includeAssets: [],
       manifest: {
-        name: 'PisoChatGPT',
-        short_name: 'PisoChatGPT',
+        name: 'PisoChat',
+        short_name: 'PisoChat',
         start_url: '/',
         display: 'standalone',
         background_color: '#000000',

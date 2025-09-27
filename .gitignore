@@ -134,3 +134,28 @@ helm/**/.values.yaml
 /.openai/
 /.tabnine/
 /.codeium
+
+# Android/Gradle (Bubblewrap/TWA)
+# Gradle caches and locks
+.gradle/**
+
+# Build outputs
+**/build/**
+
+# Node tooling
+node_modules/.bin/**
+node_modules/**
+
+# Local machine files
+local.properties
+
+# Keystores and secrets
+*.keystore
+*.jks
+keystore.properties
+signing.properties
+
+# Android build artifacts
+*.apk
+*.aab
+*.idsig
